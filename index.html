@@ -8,12 +8,12 @@
     <title>HTML5 Form Project</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container" id="cont">
         <div>
             <h1>Payment form example</h1>
         </div>
-        <div>
-            <div class="col-12">
+        <div class="padd">
+            <div class="padd">
                 <div class="alert alert-danger" class="alert" role="alert">
                     Some fields are missing
                 </div>
@@ -29,11 +29,14 @@
                 </fieldset>
                 <fieldset>
                     <label for="amount">Amount</label><br>
-                    <input type="text" name="amount" value="Amount"/>
+                    <div class="dollarSign">
+                        <input id="dollarSign" type="text" name="amount" value="Amount"/>
+                    </div>
+                    
                 </fieldset>
             </div>
         </div>
-        <div>display flex
+        <div class="padd">display flex
             <div>
                 <fieldset>
                     first name, city...
@@ -53,7 +56,7 @@
                 </fieldset>
             </div>
         </div>
-        <div>display flex, cancel send</div>
+        <div class="padd">display flex, cancel send</div>
     </div>
 
     <!-- Optional JavaScript -->

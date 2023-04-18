@@ -3,7 +3,21 @@
     /* border: 0.5px gray solid; */
     font-weight: bold;
 }
+.padd {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#cont {
+    border: 1.5px darkgray solid;
+    border-radius: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-bottom: 1.5px darkgray solid;
     background-color:rgb(240, 240, 240);
 }
 
@@ -16,4 +30,23 @@ h1 {
     color: darkgray;
     border: 1.5px darkgray solid;
     border-radius: 3px;
+}
+.cardInfo fieldset:first-child {
+    width: 40%;
+}
+.cardInfo fieldset:nth-child(2) {
+    width: 25%;
+}
+.cardInfo fieldset:nth-child(3) {
+    width: 35%;
+}
+.cardInfo fieldset:first-child input,
+.cardInfo fieldset:nth-child(2) input {
+    width: 90%;
+}
+.cardInfo fieldset:nth-child(3) input {
+    width: 96%;
+}
+.dollarSign::before {
+    content: "$";
 }
