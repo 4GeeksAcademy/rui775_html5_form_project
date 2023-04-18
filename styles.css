@@ -1,0 +1,19 @@
+* {
+    font-family: Arial;
+    /* border: 0.5px gray solid; */
+    font-weight: bold;
+}
+h1 {
+    background-color:rgb(240, 240, 240);
+}
+
+.cardInfo {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cardInfo input {
+    color: darkgray;
+    border: 1.5px darkgray solid;
+    border-radius: 3px;
+}
