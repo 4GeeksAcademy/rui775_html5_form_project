@@ -51,7 +51,11 @@ h1 {
     width: 90%;
 }
 .cardInfo fieldset:nth-child(3) input {
-    width: 96%;
+    width: 95%;
+}
+.dollarSign {
+    display: flex;
+    align-items: center;
 }
 .dollarSign::before {
     content: "$";

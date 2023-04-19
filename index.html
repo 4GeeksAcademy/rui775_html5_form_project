@@ -24,16 +24,16 @@
             <div class="cardInfo">
                 <fieldset>
                     <label for="cardNum">Card #</label><br>
-                    <input type="text" name="cardNum" value="XXXXXXXXXXXXXX"/>
+                    <input type="text" class="form-control" name="cardNum" placeholder="XXXXXXXXXXXXXX" required/>
                 </fieldset>
                 <fieldset>
                     <label for="cvcNum">CVC #</label><br>
-                    <input type="text" name="cvcNum" value="000"/>
+                    <input type="text" class="form-control" name="cvcNum" placeholder="000" required/>
                 </fieldset>
                 <fieldset>
                     <label for="amount">Amount</label><br>
                     <div class="dollarSign">
-                        <input id="dollarSign" type="text" name="amount" value="Amount"/>
+                        <input id="dollarSign" class="form-control" type="text" name="amount" placeholder="Amount" required/>
                     </div>
                 </fieldset>
             </div>
@@ -42,11 +42,11 @@
             <div class="cardInfoLeft">
                 <fieldset>
                     <label for="firstname">First name</label><br>
-                    <input type="text" name="firstname" />
+                    <input type="text" class="form-control" name="firstname" required/>
                 </fieldset>
                 <fieldset>
                     <label for="city">City</label><br>
-                    <input type="text" name="city" />
+                    <input type="text" class="form-control" name="city" required/>
                 </fieldset>
                 <fieldset>
                     <p>We accept:</p>
@@ -73,12 +73,12 @@
             <div class="cardInfoRight">
                 <fieldset>
                     <label for="lastName">Last name</label><br>
-                    <input type="text" name="lastName" />
+                    <input type="text" class="form-control" name="lastName" required/>
                 </fieldset>
                 <div>
                     <fieldset>
                         <p>State</p>
-                        <select>
+                        <select class="form-control" required>
                             <option value="null" selected disabled hidden>Pick a state</option>  
                             <option value="alabama">Alabama</option> 
                             <option value="florida">Florida</option> 
@@ -87,7 +87,7 @@
                     </fieldset>
                     <fieldset>
                         <label for="postalCode">Postal code</label><br>
-                        <input type="text" name="postalCode" />
+                        <input type="text" class="form-control" name="postalCode" required/>
                     </fieldset>
                 </div>
                 <fieldset class="notes">
